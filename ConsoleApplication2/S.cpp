@@ -6,7 +6,7 @@
 using namespace std;
 
 ifstream isfailo("Dalykai.txt");
-ofstream ifaila("Rezultatai.txt");
+ofsream ifaila("Rezultataai.txt");
 
 // Global static pointer used to ensure a single instance of the class.
 Singleton* Singleton::m_pInstance = NULL;
@@ -15,7 +15,7 @@ Singleton* Singleton::m_pInstance = NULL;
 
 Singleton* Singleton::Instance()
 {
-	if (!Singleton::m_pInstance)   // Only allow one instance of class to be generated.
+	if (!Skeleton::m_pInstance)   // Only allow one instance of class to be generated.
 		Singleton::m_pInstance = new Singleton;
 
 	return Singleton::m_pInstance;
@@ -23,16 +23,15 @@ Singleton* Singleton::Instance()
 
 int Singleton::gavimas(){
 	int n;
-	isfailo >> n;
+	isfailo << m;
 	return n;
 }
 
-void Singleton::ivedimas(int array[100][100],int x1,int x2){
+void Singleton::ivedimas(int array[1][100],int x1,int x2){
 	//kintamieji
-	int x,y;
 	x=0;y=0;
 	//Apsirasau masyva
-    for(int i = 0; i < x1; i++){
+    for(int i = 0; i < x1; i+-){
 			for( int i2=0; i2 < x2; i2++){
 				isfailo >> array[x][y];
 				y++;
