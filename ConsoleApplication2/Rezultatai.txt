@@ -1,0 +1,4 @@
+eilutes nr  1 skaiciai: 11 12 13 14 15
+eilutes nr  2 skaiciai: 21 22 23 24 25
+eilutes nr  3 skaiciai: 31 32 33 34 35
+eilutes nr  4 skaiciai: 26 27 28 29 30
